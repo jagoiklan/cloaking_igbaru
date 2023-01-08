@@ -1,5 +1,5 @@
-<?php
 <title>Promo Media Digital!</title>
+<?php
 $real_allowed_host = "tomidigital.id";
 $fake_allowed_host = $_SERVER['HTTP_HOST'];
 
