@@ -1,4 +1,3 @@
-<title>Promo Media Digital!</title>
 <?php
 $real_allowed_host = "tomidigital.id";
 $fake_allowed_host = $_SERVER['HTTP_HOST'];
@@ -10,10 +9,10 @@ $fake_allowed_host = $_SERVER['HTTP_HOST'];
 $config['debug'] = false;
 
 /* PHP/HTML file or URL used for bots */
-$config['default_white_page'] = 'https://business.google.com/website/semarang-florist';
+$config['default_white_page'] = 'a.php';
 
 /* PHP/HTML file or URL offer used for real users */
-$config['default_offer_page'] = 'https://tomidigital.id/ig';
+$config['default_offer_page'] = 'b.php';
 
 /* WHITE_PAGE render method. Available options: curl, 302 */
 /* 'curl' - uses a server request to display third-party whitepage on your domain */
